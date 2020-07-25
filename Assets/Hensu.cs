@@ -1,26 +1,26 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-//using UnityEngine;
+using UnityEngine;
 
-public class Hensu : UnityEngine.MonoBehaviour
+public class Hensu : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    int a = 10;
+
+    public void Proc()
     {
-        int a = 10;
         float fw = 3.14f;
         string str = "こんにちは";
         bool bl = true;
 
-        UnityEngine.Debug.Log(a+a);
-        UnityEngine.Debug.Log(fw);
-        UnityEngine.Debug.Log(str);
-        UnityEngine.Debug.Log(bl);
+        Debug.Log(a+a);
+        Debug.Log(fw);
+        Debug.Log(str);
+        Debug.Log(bl);
     }
 
     public void Proc2()
     {
-        UnityEngine.Debug.Log(a);
+        Debug.Log(a);
     }
 
     // Update is called once per frame
